@@ -4,12 +4,10 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "PhpBenchmarksZend\\HelloWorld\\": "module/HelloWorld/src",
-            "PhpBenchmarksZend\\RestApi\\": "module/RestApi/src"
+            "PhpBenchmarksZend\\HelloWorld\\": ""
         }
     },
     "require": {
-        "php": ">=5.4.0",
-        "phpbenchmarks/benchmark-rest-data": "1.0.0"
+        "php": ">=5.4.0"
     }
 }
