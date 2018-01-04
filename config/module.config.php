@@ -8,7 +8,7 @@ use PhpBenchmarksZend\RestApi\Factory\RestApiTransformerFactory;
 use PhpBenchmarksZend\RestApi\Transformer\RestApiTransformer;
 use Zend\Router\Http\Literal;
 
-$routes = require __DIR__ . '/../../../config/routes.php';
+$routes = require 'routes.php';
 $routes['phpbenchmarks'] = [
     'type' => Literal::class,
     'options' => [
@@ -36,7 +36,7 @@ return [
         'translation_file_patterns' => [
             [
                 'type' => 'phpArray',
-                'base_dir' => __DIR__ .  '/../../../language',
+                'base_dir' => __DIR__ .  '/../language',
                 'pattern' => '%s.php'
             ],
         ],
