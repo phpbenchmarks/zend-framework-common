@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpBenchmarksZend\RestApi\Factory;
+namespace PhpBenchmarksZendFramework\RestApiModule\Factory;
 
 use Interop\Container\ContainerInterface;
-use PhpBenchmarksZend\RestApi\Transformer\RestApiTransformer;
+use PhpBenchmarksZendFramework\RestApiModule\Transformer\RestApiTransformer;
 
 final class RestApiTransformerFactory
 {

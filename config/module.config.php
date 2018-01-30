@@ -1,11 +1,12 @@
 <?php
 
-namespace PhpBenchmarksZend\RestApi;
+namespace PhpBenchmarksZendFramework\RestApiModule;
 
-use PhpBenchmarksZend\RestApi\Controller\RestApiController;
-use PhpBenchmarksZend\RestApi\Factory\RestApiControllerFactory;
-use PhpBenchmarksZend\RestApi\Factory\RestApiTransformerFactory;
-use PhpBenchmarksZend\RestApi\Transformer\RestApiTransformer;
+use PhpBenchmarksZendFramework\RestApiModule\Controller\RestApiController;
+use PhpBenchmarksZendFramework\RestApiModule\Factory\RestApiControllerFactory;
+use PhpBenchmarksZendFramework\RestApiModule\Factory\RestApiTransformerFactory;
+use
+    PhpBenchmarksZendFramework\RestApiModule\Transformer\RestApiTransformer;
 use Zend\Router\Http\Literal;
 
 $routes = require 'routes.php';

@@ -14,15 +14,15 @@ You can compare results between Apache Bench and Siege, PHP 5.6 to 7.2 and versi
 
 It's benchmark bundles for almost all Zend Framework versions.
 
-Hello World: [helloworld](https://github.com/phpbenchmarks/zend/tree/helloworld)
+Hello World: [helloworld](https://github.com/phpbenchmarks/zend-framework/tree/helloworld)
 
-REST Api: [restapi](https://github.com/phpbenchmarks/zend/tree/restapi)
+REST Api: [restapi](https://github.com/phpbenchmarks/zend-framework/tree/restapi)
 
-Blog: [blog](https://github.com/phpbenchmarks/zend/tree/blog)
+Blog: [blog](https://github.com/phpbenchmarks/zend-framework/tree/blog)
 
-Small overload: [smalloverload](https://github.com/phpbenchmarks/zend/tree/smalloverload)
+Small overload: [smalloverload](https://github.com/phpbenchmarks/zend-framework/tree/smalloverload)
 
-Big overload: [bigoverload](https://github.com/phpbenchmarks/zend/tree/bigoverload)
+Big overload: [bigoverload](https://github.com/phpbenchmarks/zend-framework/tree/bigoverload)
 
 You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmark-protocol).
 

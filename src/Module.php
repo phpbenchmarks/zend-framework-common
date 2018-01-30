@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpBenchmarksZend\RestApi;
+namespace PhpBenchmarksZendFramework\RestApiModule;
 
 use Zend\ModuleManager\Feature\ConfigProviderInterface;
 

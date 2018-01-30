@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpBenchmarksZend\RestApi\Transformer;
+namespace PhpBenchmarksZendFramework\RestApiModule\Transformer;
 
 use PhpBenchmarksRestData\Comment;
 use PhpBenchmarksRestData\CommentType;

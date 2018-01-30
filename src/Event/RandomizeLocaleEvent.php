@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpBenchmarksZend\RestApi\Event;
+namespace PhpBenchmarksZendFramework\RestApiModule\Event;
 
 use Zend\EventManager\Event;
 

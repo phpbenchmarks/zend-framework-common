@@ -1,6 +1,6 @@
 <?php
 
-use PhpBenchmarksZend\RestApi\Controller\RestApiController;
+use PhpBenchmarksZendFramework\RestApiModule\Controller\RestApiController;
 use Zend\Router\Http\Literal;
 
 return [

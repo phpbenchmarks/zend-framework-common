@@ -1,9 +1,9 @@
 <?php
 
-namespace PhpBenchmarksZend\RestApi\Factory;
+namespace PhpBenchmarksZendFramework\RestApiModule\Factory;
 
 use Interop\Container\ContainerInterface;
-use PhpBenchmarksZend\RestApi\Controller\RestApiController;
+use PhpBenchmarksZendFramework\RestApiModule\Controller\RestApiController;
 
 final class RestApiControllerFactory
 {

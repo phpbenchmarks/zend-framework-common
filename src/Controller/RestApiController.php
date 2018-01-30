@@ -1,10 +1,10 @@
 <?php
 
-namespace PhpBenchmarksZend\RestApi\Controller;
+namespace PhpBenchmarksZendFramework\RestApiModule\Controller;
 
 use PhpBenchmarksRestData\Service;
-use PhpBenchmarksZend\RestApi\Event\RandomizeLocaleEvent;
-use PhpBenchmarksZend\RestApi\Transformer\RestApiTransformer;
+use PhpBenchmarksZendFramework\RestApiModule\Event\RandomizeLocaleEvent;
+use PhpBenchmarksZendFramework\RestApiModule\Transformer\RestApiTransformer;
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\Mvc\I18n\Translator;
 use Zend\View\Model\JsonModel;
