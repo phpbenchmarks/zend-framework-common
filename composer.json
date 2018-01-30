@@ -1,10 +1,10 @@
 {
-    "name": "phpbenchmarks/zend",
+    "name": "phpbenchmarks/zend-framework",
     "license": "proprietary",
     "type": "project",
     "autoload": {
         "psr-4": {
-            "PhpBenchmarksZend\\HelloWorld\\": ""
+            "PhpBenchmarksZendFramework\\HelloWorldModule\\": "src/"
         }
     },
     "require": {

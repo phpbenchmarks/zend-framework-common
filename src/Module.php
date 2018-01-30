@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpBenchmarksZend\HelloWorld;
+namespace PhpBenchmarksZendFramework\HelloWorldModule;
 
 use Zend\ModuleManager\Feature\ConfigProviderInterface;
 

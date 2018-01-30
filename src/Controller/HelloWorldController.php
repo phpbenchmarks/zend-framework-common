@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpBenchmarksZend\HelloWorld\Controller;
+namespace PhpBenchmarksZendFramework\HelloWorldModule\Controller;
 
 use Zend\Mvc\Controller\AbstractActionController;
 

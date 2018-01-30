@@ -1,14 +1,13 @@
 <?php
 
-namespace PhpBenchmarksZend\HelloWorld;
-
+use PhpBenchmarksZendFramework\HelloWorldModule\Controller\HelloWorldController;
 use Zend\Router\Http\Literal;
 use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
     'controllers' => [
         'factories' => [
-            Controller\HelloWorldController::class => InvokableFactory::class,
+            HelloWorldController::class => InvokableFactory::class,
         ],
     ],
     'router' => [
@@ -18,7 +17,7 @@ return [
                 'options' => [
                     'route' => '/benchmark/helloworld',
                     'defaults' => [
-                        'controller' => Controller\HelloWorldController::class,
+                        'controller' => HelloWorldController::class,
                         'action' => 'helloWorld',
                     ],
                 ],
