@@ -6,36 +6,32 @@
 
 ## What is www.phpbenchmarks.com ?
 
-You will find lot of benchmarks for PHP frameworks, ORM and libs here.
+You will find lot of benchmarks for PHP frameworks and template engines.
 
-You can compare results between Apache Bench and Siege, PHP 5.6 to 7.2 and versions of your favorites PHP code.
+You can compare results between Apache Bench and Siege, and PHP 5.6 to 7.2.
 
 ## What is this repository ?
 
-It's benchmark bundles for almost all Zend Framework versions.
+It's benchmark common code for Zend Framework benchmarks.
 
-Hello World: [helloworld](https://github.com/phpbenchmarks/zend-framework/tree/helloworld)
+Switch branch to select your Zend Framework major version and benchmark you want to see.
 
-REST Api: [restapi](https://github.com/phpbenchmarks/zend-framework/tree/restapi)
+See all Zend Framework benchmarked versions on [phpbenchmarks/zend-framework](https://github.com/phpbenchmarks/zend-framework).
 
-Blog: [blog](https://github.com/phpbenchmarks/zend-framework/tree/blog)
+You can find how we benchmark on [phpbenchmarks.com](http://www.phpbenchmarks.com/en/benchmark-protocol.html).
 
-Small overload: [smalloverload](https://github.com/phpbenchmarks/zend-framework/tree/smalloverload)
-
-Big overload: [bigoverload](https://github.com/phpbenchmarks/zend-framework/tree/bigoverload)
-
-You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmark-protocol).
-
-## How version works ?
+## How versions works ?
 
 We do not follow semantic version for this repository. Here is an explanation about our versioning system:
 
-`X` benchmark type (`1` Hello World, `2` Blog, `3` REST Api, `4` Small overload, `5` Big overload)
+`X` related to Zend Framework major version (`3` Zend Framework ^3)
 
-`Y` related to Zend Framework version (`0` for `3.0.x`)
+`Y` benchmark type (`1` Hello World, `3` Rest API)
 
 `Z` new version, not just bugfix and could contains BC
 
-## Zend Framework benchmarks
+## Benchmarks
 
-You can find all Zend Framework benchmarks [here](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/select-version/zend-framework.html).
+You can find all Zend Framework benchmarks results on [phpbenchmarks.com](http://www.phpbenchmarks.com/en/benchmark/zend-framework.html).
+
+Scores are too low ? Do not hesitate to create a pull request, and ask a new benchmark !
